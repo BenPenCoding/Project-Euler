@@ -1,19 +1,19 @@
 def isPrime(num):
     
-    if num == 0: return False
+    if num == 0 or num == 1: return False
     
     sqr = int(num**0.5)
 
     for i in range(2,sqr + 1):
 
-        if num % i == 0:return False
+        if num % i == 0: return False
 
     return True
 
 primes = 0
 num = -1
 
-while primes != 10002:
+while primes != 10001:
     
     num += 1
 
