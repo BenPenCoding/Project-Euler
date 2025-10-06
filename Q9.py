@@ -1,12 +1,8 @@
 def checkTriplet(a, b, c):
 
-    if (a ** 2) + (b ** 2) == (c ** 2):
+    if (a ** 2) + (b ** 2) == (c ** 2): return True
 
-        return True
-
-    else:
-
-        return False
+    else: return False
 
 def findTriplet():
 
